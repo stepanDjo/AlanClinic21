@@ -2,10 +2,10 @@
 <yml_catalog date="2021-07-17 12:10">
     <shop>
         <name>Работает</name>
-        <company>ООО «Клиника «Алан Клиник»</company>
-        <url>https://zabotaclinic.com</url>
-        <email>mc_zabota@mail.ru</email>
-        <picture>https://static.tildacdn.com/tild6632-6466-4432-b238-616539303261/_-.svg</picture>
+        <company>Медицинский центр «Алан Клиник»</company>
+        <url>https://alanclinic21.ru/</url>
+        <email>info@alanclinic21.ru</email>
+        <picture>https://alanclinic21.ru/upload/CAllcorp3Medc/728/x94xgyv9aolntdr3npscv0xoqnz7gphe/logo.png</picture>
         <description>Каталог врачей</description>
         <currencies>
           <currency id="RUR" rate="1" />
@@ -15,21 +15,21 @@
         </categories>
 
         <sets>
-            <set id="kardiolog">
-                <name>Кардиолог</name>
-                <url>https://zabotaclinic.com/cardiology</url>
+            <set id="urolog">
+                <name>Уролог</name>
+                <url>https://alanclinic21.ru/doctors/urologi/</url>
             </set>
-			<set id="nevrolog">
-                <name>Невролог</name>
-                <url>https://zabotaclinic.com/nevrologia</url>
+			<set id="proctolog">
+                <name>Проктолог</name>
+                <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/</url>
             </set>
-			<set id="terapevt">
-                <name>Терапевт</name>
-                <url>https://zabotaclinic.com/therapy</url>
+			<set id="endoskopist">
+                <name>Эндоскопист</name>
+                <url>https://alanclinic21.ru/doctors/endoskopisty/</url>
             </set>
-			<set id="gastroenterolog">
-                <name>Гастроэнтеролог</name>
-                <url>https://zabotaclinic.com/gastroenterologiya</url>
+			<set id="uzi">
+                <name>Врач ультразвуковой диагностики</name>
+                <url>https://alanclinic21.ru/doctors/uzi/</url>
             </set>
 			
         </sets>
@@ -41,95 +41,329 @@
 
             -->
             <!--group_id - уникальный идентификтаор врача. нужен при наличии разных URL у одного человека. Целое число, не более 9 знаков-->
-            <offer id="vrach111" group_id="94726"> 
-                <name>Нурбаев Тимур Аликович</name> <!--ФИО, именно в таком порядке-->
+            <offer id="vrach111" group_id="94721"> 
+                <name>Павлов Владислав Витальевич</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
-                <url>https://zabotaclinic.com/timur_alikovich</url><!--URL карточки врача. -->
-                <price from="true">1800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <url>https://alanclinic21.ru/doctors/urologi/pavlov-vladislav-vitalevich/</url><!--URL карточки врача. -->
+                <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>kardiolog</set-ids> <!--специальности через запятую-->
-                <picture>https://static.tildacdn.com/tild3964-3039-4132-a437-366239316339/1x1.jpg</picture>
-                <description>Основные направления профессиональной деятельности: диагностика и лечения всего спектра заболеваний сердечнососудистой системы, разработка и контроль за безопасным проведением индивидуальных программ реабилитации при кардиологических заболеваниях, функциональная диагностика (ЭКГ, суточное мониторирование ЭКГ по Холтеру, суточное мониторирование АД).⠀
-				В своей работе Тимур Аликович основывается на современных принципах доказательной медицины, последних рекомендациях Российского кардиологического общества, Европейского общества кардиологов. Ведет прием пациентов с 16 лет.
+                <set-ids>urolog</set-ids> <!--специальности через запятую-->
+                <picture>https://alanclinic21.ru/upload/resize_cache/iblock/b27/p08erzz0hotx84drl6wpg0zzd1zohw0k/500_500_0/MAXR4251.jpg</picture>
+                <description>Основные направления профессиональной деятельности: лечение эректильной дисфункци, восстановление и улучшение потенции, лечение преждевременного семяизвержения, лечение простатита, лечение аденомы простаты, лечение мужского климакса, лечение уретрита у мужчин⠀
+				Владислав Витальевич владеет современными методами диагностики и лечения уроандрологических заболеваний. Специализируется на таких проблемах как простатит, аденома простаты, эректильная дисфункция, преждевременное семяизвержение, воспалительные заболевания мочеполовой системы.
 				</description>
                 <categoryId>1</categoryId>
                 <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
-                <param name="Фамилия">Нурбаев</param>
-                <param name="Имя">Тимур</param>
-                <param name="Отчество">Аликович</param>
-                <param name="Годы опыта">15</param>
-                <param name="Начало карьеры">2008-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
-                <param name="Город">г. Ташкент</param>
+                <param name="Фамилия">Павлов</param>
+                <param name="Имя">Владислав</param>
+                <param name="Отчество">Витальевич</param>
+                <param name="Годы опыта">21</param>
+                <param name="Начало карьеры">2002-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Чебоксары</param>
                 <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
                 <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
-                <param name="Ссылка на профиль врача">https://zabotaclinic.com/timur_alikovich</param>
-                <param name="Город клиники">г. Санкт-Петербург</param>
-                <param name="Адрес клиники">ул. Бухарестская, д.67, к. 1</param>
-                <param name="Название клиники">Клиника «Забота»</param>
+                <param name="Ссылка на профиль врача">https://alanclinic21.ru/doctors/urologi/pavlov-vladislav-vitalevich/</param>
+                <param name="Город клиники">г. Чебоксары</param>
+                <param name="Адрес клиники">ул. Ислюкова, д.16а</param>
+                <param name="Название клиники">Медицинский центр «Алан Клиник»</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
-                <param name="Телефон для записи">+7(812)402-41-41</param> <!--Можно подменник аггрегатора-->
+                <param name="Телефон для записи">+7(8352)55-65-55</param> <!--Можно подменник аггрегатора-->
             </offer>
 			<offer id="vrach112" group_id="94722"> 
-                <name>Чернов Андрей Константинович</name> <!--ФИО, именно в таком порядке-->
+                <name>Тараканов Сергей Викторович</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
-                <url>https://zabotaclinic.com/chernov_andrei</url><!--URL карточки врача. -->
-                <price from="true">1800</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/tarakanov-sergey-viktorovich/</url><!--URL карточки врача. -->
+                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>nevrolog</set-ids> <!--специальности через запятую-->
-                <picture>https://static.tildacdn.com/tild3763-3735-4739-b137-303365386139/image.png</picture>
-                <description>Основные направления деятельности: * неврология * терапия В своей работе Андрей Константинович основывается на современных принципах доказательной медицины, является членом Всероссийского общества неврологов (Общество специалистов по нервно-мышечным болезням).Ведёт приём пациентов с 18 лет.
+                <set-ids>proctolog</set-ids> <!--специальности через запятую-->
+                <picture>https://alanclinic21.ru/upload/resize_cache/iblock/6f6/eaqea0su7jyvd8can4o7ybtngoetiaet/500_500_0/MAXR5078.jpg</picture>
+                <description>Основные направления деятельности: лечение внутреннего и наружного геморроя, лечение анальных трещин, тромбоз геморроидальных узлов (1, 2 степени), удаление анальных бахромок, эстетическая хирургия переанальной области, лечение свищей прямой кишки, удаление папиллом (кондилом) перианальной области, удаление полипов анального канала.  
+				Сергей Викторович успешно использует весь спектр современных малоинвазивных безоперационных методов диагностики и лечения проктологических заболеваний. Во врачебной практике повседневно применяет инфракрасную фотокоагуляцию, латексное лигирование, склеротерапию внутренних геморроидальных узлов с помощью аппарата«Проксон».Успешно осуществляет безоперационное и комплексное лечение анальных трещин, свищей прямой кишки.  
 				</description>
                 <categoryId>1</categoryId>
                 <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
-                <param name="Фамилия">Чернов</param>
-                <param name="Имя">Андрей</param>
-                <param name="Отчество">Константинович</param>
-                <param name="Годы опыта">6</param>
-                <param name="Начало карьеры">2017-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
-                <param name="Город">г. Санкт-Петербург</param>
+                <param name="Фамилия">Тараканов</param>
+                <param name="Имя">Сергей</param>
+                <param name="Отчество">Викторович</param>
+                <param name="Годы опыта">19</param>
+                <param name="Начало карьеры">2004-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Чебоксары</param>
                 <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
                 <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
-                <param name="Ссылка на профиль врача">https://zabotaclinic.com/chernov_andrei</param>
-                <param name="Город клиники">г. Санкт-Петербург</param>
-                <param name="Адрес клиники">ул. Бухарестская, д.67, к. 1</param>
-                <param name="Название клиники">Клиника «Забота»</param>
+                <param name="Ссылка на профиль врача">https://alanclinic21.ru/doctors/proktologi-koloproktologi/tarakanov-sergey-viktorovich/</param>
+                <param name="Город клиники">г. Чебоксары</param>
+                <param name="Адрес клиники">ул. Ислюкова, д.16а</param>
+                <param name="Название клиники">Медицинский центр «Алан Клиник»</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
-                <param name="Телефон для записи">+7(812)402-41-41</param> <!--Можно подменник аггрегатора-->
+                <param name="Телефон для записи">+7(8352)55-65-55</param> <!--Можно подменник аггрегатора-->
             </offer>
 			<offer id="vrach113" group_id="94723"> 
-                <name>Тудупов Вадим Андреевич</name> <!--ФИО, именно в таком порядке-->
+                <name>Абдуллаев Кямран Интигамович</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
-                <url>https://zabotaclinic.com/tudupov_vadim</url><!--URL карточки врача. -->
-                <price from="true">1500</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
-                <oldprice>1500</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/abdullaev-kyamran-intigamovich/</url><!--URL карточки врача. -->
+                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>terapevt,gastroenterolog,kardiolog</set-ids> <!--специальности через запятую-->
-                <picture>https://thumb.tildacdn.com/tild6462-3035-4566-a134-383063663633/-/resize/920x/-/format/webp/image.png</picture>
-                <description>Ведет прием пациентов с 18 лет. В своей работе Вадим Андреевич основывается на современных принципах доказательной медицины, последних рекомендациях профильных российских и европейских сообществ, стандартах оказания медицинской помощи. Регулярно посещает научные конференции, симпозиумы, участвует в круглых столах и школах здоровья Фрунзенского и Московского районов Санкт-Петербурга.
+                <set-ids>proctolog</set-ids> <!--специальности через запятую-->
+                <picture>https://alanclinic21.ru/upload/resize_cache/iblock/4ee/7x0i0ew263106w0bdne0lemt3ru59di9/500_500_0/MAXR4456.jpg</picture>
+                <description>Основные направления деятельности: комбинированное лечение геморроя, лечение перианального венозного тромбоза, лечение анальных трещин, удаление образований перианальной области и анального канала, иссечение анальных бахромок. 
+				Врач Кямран Интигамович высококвалифицированный специалист в области лечением геморроя (внутреннего и внешнего) современными высокоэффективными малоинвазивными методами: склеротерапия, фокусная инфракрасная фотокоагуляция, латексное лигирование, трансанальная дезартеризация геморроидальных узлов под контролем ультразвуковой допплерометрии (HAL-RAR).  
 				</description>
                 <categoryId>1</categoryId>
                 <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
-                <param name="Фамилия">Тудупов</param>
-                <param name="Имя">Вадим</param>
-                <param name="Отчество">Андреевич</param>
-                <param name="Годы опыта">4</param>
-                <param name="Начало карьеры">2018-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
-                <param name="Город">г. Санкт-Петербург</param>
+                <param name="Фамилия">Абдуллаев</param>
+                <param name="Имя">Кямран</param>
+                <param name="Отчество">Интигамович</param>
+                <param name="Годы опыта">6</param>
+                <param name="Начало карьеры">2017-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Чебоксары</param>
                 <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
                 <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
-                <param name="Ссылка на профиль врача">https://zabotaclinic.com/tudupov_vadim</param>
-                <param name="Город клиники">г. Санкт-Петербург</param>
-                <param name="Адрес клиники">ул. Бухарестская, д.67, к. 1</param>
-                <param name="Название клиники">Клиника «Забота»</param>
+                <param name="Ссылка на профиль врача">https://alanclinic21.ru/doctors/proktologi-koloproktologi/abdullaev-kyamran-intigamovich/</param>
+                <param name="Город клиники">г. Чебоксары</param>
+                <param name="Адрес клиники">ул. Ислюкова, д.16а</param>
+                <param name="Название клиники">Медицинский центр «Алан Клиник»</param>
                 <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
-                <param name="Телефон для записи">+7(812)402-41-41</param> <!--Можно подменник аггрегатора-->
+                <param name="Телефон для записи">+7(8352)55-65-55</param> <!--Можно подменник аггрегатора-->
             </offer>
-			
+			<offer id="vrach114" group_id="94724"> 
+                <name>Чернова Светлана Анатольевна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/chernova-svetlana-anatolevna/</url><!--URL карточки врача. -->
+                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>proctolog</set-ids> <!--специальности через запятую-->
+                <picture>https://alanclinic21.ru/upload/resize_cache/iblock/535/jy3w0ai9xjz3znf96almrwyjtecof5zf/500_500_0/MAXR4333.jpg</picture>
+                <description>Основные направления деятельности: оперативные вмешательства в хирургии, проктологии, эндоскопия при патологии ректосигмоидального отдела кишечника, прямой кишки, безоперационные методы лечения геморроя, тромбоза геморроидальных узлов и анальной трещины, ректороманоскопия, аноскопия, удаление доброкачественных новообразований. 
+				Врач Светлана Анатольевна высококвалифицированный специалист, член Ассоциации колопроктологов России  
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Чернова</param>
+                <param name="Имя">Светлана</param>
+                <param name="Отчество">Анатольевна</param>
+                <param name="Годы опыта">8</param>
+                <param name="Начало карьеры">2015-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Чебоксары</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://alanclinic21.ru/doctors/proktologi-koloproktologi/chernova-svetlana-anatolevna/</param>
+                <param name="Город клиники">г. Чебоксары</param>
+                <param name="Адрес клиники">ул. Ислюкова, д.16а</param>
+                <param name="Название клиники">Медицинский центр «Алан Клиник»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(8352)55-65-55</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="vrach115" group_id="94725"> 
+                <name>Питакова Анастасия Владимировна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/pitakova-anastosiya-vladimirovna/</url><!--URL карточки врача. -->
+                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>proctolog</set-ids> <!--специальности через запятую-->
+                <picture>https://alanclinic21.ru/upload/resize_cache/iblock/235/m82x285x4yi34co90zr327a3t5w57o2d/500_500_0/Питакова_1web.jpg</picture>
+                <description>Основные направления деятельности: лечение внутреннего и наружного геморроя, тромбоз геморроидальных узлов (1, 2 степени), лечение анальных трещин, удаление анальных бахромок, эстетическая хирургия переанальной области, удаление папиллом (кондилом) перианальной области, лечение свищей прямой кишки, удаление полипов анального канала.  
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Питакова</param>
+                <param name="Имя">Анастасия</param>
+                <param name="Отчество">Владимировна</param>
+                <param name="Годы опыта">16</param>
+                <param name="Начало карьеры">2007-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Чебоксары</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://alanclinic21.ru/doctors/proktologi-koloproktologi/pitakova-anastosiya-vladimirovna/</param>
+                <param name="Город клиники">г. Чебоксары</param>
+                <param name="Адрес клиники">ул. Ислюкова, д.16а</param>
+                <param name="Название клиники">Медицинский центр «Алан Клиник»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(8352)55-65-55</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="vrach116" group_id="94726"> 
+                <name>Едифанова Евгения Игоревна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/edifanova-evgeniya-igorevna/</url><!--URL карточки врача. -->
+                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>proctolog</set-ids> <!--специальности через запятую-->
+                <picture>https://alanclinic21.ru/upload/resize_cache/iblock/8e7/wmj9bfbeixd11ca6axcgpjml3qghnan6/500_500_0/MAXR4093.jpg</picture>
+                <description>Основные направления деятельности: лечение анального зуда, лечение анальных бахромок, лечение анальных трещин, лечение геморроя, тромбоз геморроидальных узлов, послеродовое опущение передней стенки прямой кишки, удаление полипов анального канала.  
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Едифанова</param>
+                <param name="Имя">Евгения</param>
+                <param name="Отчество">Игоревна</param>
+                <param name="Годы опыта">10</param>
+                <param name="Начало карьеры">2013-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Чебоксары</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://alanclinic21.ru/doctors/proktologi-koloproktologi/edifanova-evgeniya-igorevna/</param>
+                <param name="Город клиники">г. Чебоксары</param>
+                <param name="Адрес клиники">ул. Ислюкова, д.16а</param>
+                <param name="Название клиники">Медицинский центр «Алан Клиник»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(8352)55-65-55</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="vrach117" group_id="94727"> 
+                <name>Григорьев Вячеслав Фирсович</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/grigorev-vyacheslav-firsovich/</url><!--URL карточки врача. -->
+                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>proctolog</set-ids> <!--специальности через запятую-->
+                <picture>https://alanclinic21.ru/upload/resize_cache/iblock/bfd/x0atm74w4fk65pqbg7acat5fa33gurk1/500_500_0/MAXR5601.jpg</picture>
+                <description>Основные направления деятельности: лечение внутреннего и наружного геморроя, тромбоз геморроидальных узлов (1, 2 степени), лечение анальных трещин, удаление анальных бахромок, эстетическая хирургия переанальной области, удаление папиллом (кондилом) перианальной области, лечение свищей прямой кишки, удаление полипов анального канала.  
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Григорьев</param>
+                <param name="Имя">Вячеслав</param>
+                <param name="Отчество">Фирсович</param>
+                <param name="Годы опыта">43</param>
+                <param name="Начало карьеры">1980-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Чебоксары</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://alanclinic21.ru/doctors/proktologi-koloproktologi/grigorev-vyacheslav-firsovich/</param>
+                <param name="Город клиники">г. Чебоксары</param>
+                <param name="Адрес клиники">ул. Ислюкова, д.16а</param>
+                <param name="Название клиники">Медицинский центр «Алан Клиник»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(8352)55-65-55</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="vrach118" group_id="94728"> 
+                <name>Карзанов Василий Алексанрович</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://alanclinic21.ru/doctors/endoskopisty/karzanov-vasiliy-aleksanrovich/</url><!--URL карточки врача. -->
+                <price from="true">300</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>300</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>endoskopist</set-ids> <!--специальности через запятую-->
+                <picture>https://alanclinic21.ru/upload/resize_cache/iblock/be3/sx1ihyivcbxv82yjci3bxl6guytdn5mj/500_500_0/Карзанов_1web.jpg</picture>
+                <description>Основные направления деятельности: удаление полипов, эндохиргия, эндоскопическая полипэктомия, видеоколоноскопия, биопсия ободочной кишки.   
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Карзанов</param>
+                <param name="Имя">Василий</param>
+                <param name="Отчество">Алексанрович</param>
+                <param name="Годы опыта">16</param>
+                <param name="Начало карьеры">2007-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Чебоксары</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://alanclinic21.ru/doctors/endoskopisty/karzanov-vasiliy-aleksanrovich/</param>
+                <param name="Город клиники">г. Чебоксары</param>
+                <param name="Адрес клиники">ул. Ислюкова, д.16а</param>
+                <param name="Название клиники">Медицинский центр «Алан Клиник»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(8352)55-65-55</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="vrach119" group_id="94729"> 
+                <name>Лобанцев Александр Борисович</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://alanclinic21.ru/doctors/endoskopisty/lobantsev-aleksandr-borisovich/</url><!--URL карточки врача. -->
+                <price from="true">300</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>300</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>endoskopist</set-ids> <!--специальности через запятую-->
+                <picture>https://alanclinic21.ru/upload/resize_cache/iblock/9ff/c6x9ag10zilws2l8dn46h3b8fe17ry4e/500_500_0/MAXR5463%20(1).jpg</picture>
+                <description>Основные направления деятельности: удаление полипов, эндохиргия, эндоскопическая полипэктомия, видеоколоноскопия, биопсия ободочной кишки.   
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Лобанцев</param>
+                <param name="Имя">Александр</param>
+                <param name="Отчество">Борисович</param>
+                <param name="Годы опыта">16</param>
+                <param name="Начало карьеры">2007-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Чебоксары</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://alanclinic21.ru/doctors/endoskopisty/lobantsev-aleksandr-borisovich/</param>
+                <param name="Город клиники">г. Чебоксары</param>
+                <param name="Адрес клиники">ул. Ислюкова, д.16а</param>
+                <param name="Название клиники">Медицинский центр «Алан Клиник»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(8352)55-65-55</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="vrach120" group_id="94730"> 
+                <name>Павлова Ольга Павловна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://alanclinic21.ru/doctors/uzi/pavlova-olga-pavlovna/</url><!--URL карточки врача. -->
+                <price from="true">600</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>600</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>УЗИ предстательной железы</sales_notes>
+                <set-ids>uzi</set-ids> <!--специальности через запятую-->
+                <picture>https://alanclinic21.ru/upload/resize_cache/iblock/0cf/5o3xbaxu024ra64w235vce7anxhmsvum/500_500_0/MAXR4635%20(1).jpg</picture>
+                <description>Основные направления деятельности: УЗИ предстательной железы (простаты), УЗИ мочевого пузыря, УЗИ мошонки, УЗИ органов брюшной полости, УЗИ почек, УЗИ матки и придатков, УЗИ молочных желез, УЗИ щитовидной железы, УЗИ печени, УЗИ желчного пузыря.  
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Павлова</param>
+                <param name="Имя">Ольга</param>
+                <param name="Отчество">Павлова</param>
+                <param name="Годы опыта">6</param>
+                <param name="Начало карьеры">2017-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Чебоксары</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://alanclinic21.ru/doctors/uzi/pavlova-olga-pavlovna/</param>
+                <param name="Город клиники">г. Чебоксары</param>
+                <param name="Адрес клиники">ул. Ислюкова, д.16а</param>
+                <param name="Название клиники">Медицинский центр «Алан Клиник»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(8352)55-65-55</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="vrach121" group_id="94731"> 
+                <name>Антонов Сергей Геннадьевич</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://alanclinic21.ru/doctors/uzi/antonov-sergey-gennadevich/</url><!--URL карточки врача. -->
+                <price from="true">650</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>650</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>УЗИ органов мошонки</sales_notes>
+                <set-ids>uzi</set-ids> <!--специальности через запятую-->
+                <picture>https://alanclinic21.ru/upload/resize_cache/iblock/e3a/tme38rjsk83luhnt3cpn1ttlpq2ghf3c/500_500_0/MAXR5270.jpg</picture>
+                <description>Основные направления деятельности: УЗИ предстательной железы (простаты), УЗИ мочевого пузыря, УЗИ мошонки, УЗИ органов брюшной полости, УЗИ почек, УЗИ матки и придатков, УЗИ молочных желез, УЗИ щитовидной железы, УЗИ печени, УЗИ желчного пузыря.  
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Антонов</param>
+                <param name="Имя">Сергей</param>
+                <param name="Отчество">Геннадьевич</param>
+                <param name="Годы опыта">21</param>
+                <param name="Начало карьеры">2002-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Чебоксары</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://alanclinic21.ru/doctors/uzi/antonov-sergey-gennadevich/</param>
+                <param name="Город клиники">г. Чебоксары</param>
+                <param name="Адрес клиники">ул. Ислюкова, д.16а</param>
+                <param name="Название клиники">Медицинский центр «Алан Клиник»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(8352)55-65-55</param> <!--Можно подменник аггрегатора-->
+            </offer>					
         </offers>
     </shop>
 </yml_catalog>
