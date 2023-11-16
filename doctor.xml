@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<yml_catalog date="2021-07-17 12:10">
+<yml_catalog date="2023-11-16 12:10">
     <shop>
-        <name>Работает</name>
+        <name>АланКлиник.Врачи</name>
         <company>Медицинский центр «Алан Клиник»</company>
         <url>https://alanclinic21.ru/</url>
         <email>info@alanclinic21.ru</email>
@@ -13,7 +13,6 @@
         <categories>
             <category id="1">Врач</category>
         </categories>
-
         <sets>
             <set id="urolog">
                 <name>Уролог</name>
@@ -30,8 +29,7 @@
 			<set id="uzi">
                 <name>Врач ультразвуковой диагностики</name>
                 <url>https://alanclinic21.ru/doctors/uzi/</url>
-            </set>
-			
+            </set>			
         </sets>
         <offers>
             <!--
