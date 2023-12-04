@@ -87,7 +87,7 @@
                 <param name="Фамилия">Тараканов</param>
                 <param name="Имя">Сергей</param>
                 <param name="Отчество">Викторович</param>
-                <param name="Годы опыта">21</param>
+                <param name="Годы опыта">32</param>
                 <param name="Начало карьеры">2004-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
                 <param name="Город">г. Чебоксары</param>
                 <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
