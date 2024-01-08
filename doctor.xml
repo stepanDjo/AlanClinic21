@@ -103,7 +103,7 @@
                 <name>Абдуллаев Кямран Интигамович</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/abdullaev-kyamran-intigamovich/</url><!--URL карточки врача. -->
-                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
@@ -133,7 +133,7 @@
                 <name>Чернова Светлана Анатольевна</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/chernova-svetlana-anatolevna/</url><!--URL карточки врача. -->
-                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
@@ -163,7 +163,7 @@
                 <name>Питакова Анастасия Владимировна</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/pitakova-anastosiya-vladimirovna/</url><!--URL карточки врача. -->
-                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
@@ -192,7 +192,7 @@
                 <name>Едифанова Евгения Игоревна</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/edifanova-evgeniya-igorevna/</url><!--URL карточки врача. -->
-                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
@@ -221,7 +221,7 @@
                 <name>Григорьев Вячеслав Фирсович</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/grigorev-vyacheslav-firsovich/</url><!--URL карточки врача. -->
-                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
