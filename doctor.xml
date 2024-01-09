@@ -73,7 +73,7 @@
                 <name>Тараканов Сергей Викторович</name> <!--ФИО, именно в таком порядке-->
                 <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
                 <url>https://alanclinic21.ru/doctors/proktologi-koloproktologi/tarakanov-sergey-viktorovich/</url><!--URL карточки врача. -->
-                <price from="true">900</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <price from="true">1200</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
                 <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
